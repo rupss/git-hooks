@@ -1,6 +1,6 @@
 post-commit.py is a post-commit Git hook that I wrote that replaces tabs with 4 spaces in the modified files, and then adds these files without tabs back to the commit. Inspired by https://www.mindsumo.com/contests/can-your-dev-tool-boost-engineering-productivity.
 
-##SETUP##
+##SETUP
 
 - Copy post-commit.py to your .git/hooks directory. 
 - Change the name from post-commit.py to post-commit
@@ -8,6 +8,6 @@ post-commit.py is a post-commit Git hook that I wrote that replaces tabs with 4 
 
 It should then run after you make a new commit.
 
-## PROBLEMS ##  
+## PROBLEMS 
 
 Don't use this if you have uncommitted hunks in your files, since this script adds the file directly.
