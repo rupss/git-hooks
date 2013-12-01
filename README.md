@@ -11,3 +11,7 @@ It should then run after you make a new commit.
 ## PROBLEMS 
 
 Don't use this if you have uncommitted hunks in your files, since this script adds the file directly.
+
+## License
+
+Copyright © 2013 Rupa Shankar
